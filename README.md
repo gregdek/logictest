@@ -37,3 +37,5 @@ Project01 is a test project with 4 tracks of sequencer only data. No audio track
  * Ultrabeat audio data
 
 Tag 01.001: first commit to Project01 with the basic 4 tracks of sequencer data
+
+Tag 01.002: new 5th track added, "wurlitzer pattern 3"
