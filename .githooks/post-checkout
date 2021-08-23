@@ -1,0 +1,17 @@
+#!/bin/sh
+command -v git-lfs >/dev/null 2>&1 || { echo >&2 "\nThis repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/post-checkout.\n"; exit 2; }
+git lfs post-checkout "$@"
+
+# when running the hook, cwd is the top level of working tree
+
+script=$(dirname "$0")/git-store-meta.pl
+[ ! -x "$script" ] && script=git-store-meta.pl
+
+sha_old=$1
+sha_new=$2
+change_br=$3
+
+# apply metadata only when HEAD is changed
+if [ ${sha_new} != ${sha_old} ]; then
+    "$script" --apply
+fi
