@@ -26,8 +26,7 @@ Run the init script against the local repo
 
 ## PROJECT01 DETAILS
 
-Project01 is a test project with sequencer only data. No audio tracks have been
-recorded for it. The save options:
+Project01 is a test project with 4 tracks of sequencer only data. No audio tracks have been recorded for it. The initial save options:
 
 * "Organize my project as a:
  * Folder
@@ -36,3 +35,5 @@ recorded for it. The save options:
  * Sampler audio
  * Alchemy audio data
  * Ultrabeat audio data
+
+Tag 01.001: first commit to Project01 with the basic 4 tracks of sequencer data
