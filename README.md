@@ -23,3 +23,16 @@ https://github.com/NaanProphet/git-logic-init/releases/latest/download/init{.sh,
 
 Run the init script against the local repo
 `sh init.sh`
+
+## PROJECT01 DETAILS
+
+Project01 is a test project with sequencer only data. No audio tracks have been
+recorded for it. The save options:
+
+* "Organize my project as a:
+ * Folder
+* "Copy the following files intp your project:" --> 
+ * Audio files 
+ * Sampler audio
+ * Alchemy audio data
+ * Ultrabeat audio data
