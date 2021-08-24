@@ -10,34 +10,37 @@ Test a workflow for using GitHub to manage Logic X projects
 
 ## HOWTO
 
-Clone the test repo:
+Clone the test repo (or create your own):
 `git clone git@github.com:gregdek/logictest.git`
 
-Go into the test repo directory:
+Go into the repo directory:
 `cd logictest`
 
-Download NaanProphet/git-logic-init (see that repo for details):
+Download NaanProphet/git-logic-init into the top level directory of the repo (see that repo for details):
 `curl -s -L -OO \
 https://github.com/NaanProphet/git-logic-init/releases/latest/download/init{.sh,.sh.sha256} \
 && shasum -a256 -c init.sh.sha256`
 
-Run the init script against the local repo:
+Run the init script against the repo:
 `sh init.sh`
+
+That should do it, everything should now "just work".
 
 NOTE: installation also tests for presence of git lfs and other key
 dependencies. 
 
 ## PROJECT01 DETAILS
 
-Project01 is a test project with 4 tracks of sequencer only data. No audio tracks have been recorded for it. The initial save options:
+Project01 is a test project with several tagged commits to test different
+states. The initial save options:
 
 * "Organize my project as a:
- * Folder
+    * Folder
 * "Copy the following files intp your project:" --> 
- * Audio files 
- * Sampler audio
- * Alchemy audio data
- * Ultrabeat audio data
+    * Audio files 
+    * Sampler audio
+    * Alchemy audio data
+    * Ultrabeat audio data
 
 Tag 01.001: first commit to Project01 with the basic 4 tracks of sequencer data
 
