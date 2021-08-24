@@ -46,3 +46,5 @@ Tag 01.002: new 5th track added, "wurlitzer pattern 3"
 Tag 01.003: just a simple close/reopen, then save with "no changes".
 
 Tag 01.004: added a 6th track, this one a basic vocal speaking track
+
+Tag 01.005: added a new track, "wurlitzer pattern 4"
