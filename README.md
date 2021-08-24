@@ -43,4 +43,6 @@ Tag 01.001: first commit to Project01 with the basic 4 tracks of sequencer data
 
 Tag 01.002: new 5th track added, "wurlitzer pattern 3"
 
-Tag 01.003: just a simple close, then reopen, then save with "no changes".
+Tag 01.003: just a simple close/reopen, then save with "no changes".
+
+Tag 01.004: added a 6th track, this one a basic vocal speaking track
