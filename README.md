@@ -16,13 +16,16 @@ Clone the test repo:
 Go into the test repo directory:
 `cd logictest`
 
-Download NaanProphet/git-logic-init (see that repo for details)
+Download NaanProphet/git-logic-init (see that repo for details):
 `curl -s -L -OO \
 https://github.com/NaanProphet/git-logic-init/releases/latest/download/init{.sh,.sh.sha256} \
 && shasum -a256 -c init.sh.sha256`
 
-Run the init script against the local repo
+Run the init script against the local repo:
 `sh init.sh`
+
+NOTE: installation also tests for presence of git lfs and other key
+dependencies. 
 
 ## PROJECT01 DETAILS
 
